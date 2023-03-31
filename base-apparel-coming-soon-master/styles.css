@@ -150,10 +150,14 @@ button{
   display: flex;
   align-content: center;
   align-items: center;
-  
 }
 #btn {
   margin: .5rem auto;
+}
+
+button:hover {
+  cursor: pointer;
+
 }
 
 #email {
@@ -171,4 +175,20 @@ button{
 
 footer {
   margin-top: 4rem;
+}
+
+.success{
+  border-color: #09c372 !important; 
+}
+
+.error {
+  border-color: #ff3860 !important;
+}
+
+#error-msg {
+  color: #ff3860;
+  font-size: 11px;
+  height: 13px;
+  margin-left: 4rem;
+  padding-top: .5rem;
 }
