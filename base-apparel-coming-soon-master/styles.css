@@ -77,3 +77,8 @@ h6 {
 }
 
 /* My Code starts heeere */
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+}
